@@ -59,6 +59,7 @@
             </div>
         </div>
         <div class="content">
+            {{밑에 반복문은 나중에 지우기}}
             @for ($i = 0; $i < 50; $i++)
                 <div>{{$i+1}}</div>
             @endfor
