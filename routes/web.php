@@ -19,11 +19,3 @@ Route::get('/footer', function () {
 Route::get('/contents', function () {
     return view('contents');
 });
-
-Route::get('/contents', function () {
-    return view('contents');
-});
-
-Route::get('/footer', function () {
-    return view('footer');
-});
