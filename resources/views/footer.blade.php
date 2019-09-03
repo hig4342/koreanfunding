@@ -60,6 +60,7 @@
             <footer>
             <div class="footer">
                     <div class="logo1">
+<<<<<<< HEAD
                         <a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/korea_culture.png"></a>
                     </div>
                     <div class="logo2">
@@ -68,6 +69,16 @@
 
                     <div class="logo3">
                         <a href="http://www.xn--3e0bp5xb8hr6ao19b.com/default/main/main.php"><img src="/images/kruisler.png"></a>
+=======
+                        <a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/image/korea_culture.png"></a>
+                    </div>
+                    <div class="logo2">
+                        <a href="http://urimal.hnu.kr/korea/html/new_open01.html"><img src="/image/hannam_korea.png"></a>
+                    </div>
+
+                    <div class="logo3">
+                        <a href="http://www.xn--3e0bp5xb8hr6ao19b.com/default/main/main.php"><img src="/image/kruisler.png"></a>
+>>>>>>> bb94b3483815414a386a51b7751cb061fa71faee
                     </div>
 
 

@@ -26,8 +26,12 @@
     </head>
     <body>
         <div class="content">
+<<<<<<< HEAD
             <img src="/images/backgroundimg.jpg
             ">
+=======
+            <img src="/image/main_poster-1.jpg">
+>>>>>>> bb94b3483815414a386a51b7751cb061fa71faee
         </div>
         <div class="banner1">
             <h1>주제</h1>
