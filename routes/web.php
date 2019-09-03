@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/menu', function () {
     return view('menu');
 });
+
+Route::get('/contents', function () {
+    return view('contents');
+});
+
+Route::get('/footer', function () {
+    return view('footer');
+});
