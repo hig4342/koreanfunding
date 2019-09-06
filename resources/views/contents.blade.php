@@ -19,8 +19,13 @@
             height: auto;
             margin: 0px;
         }
+        .banner1
+        {
+        display: block; margin: 0px auto;
+        }
         img {
             max-width: 100%;
+            display: block; margin: 0px auto;
         }
         </style>
     </head>
@@ -29,8 +34,16 @@
             <img src="/images/backgroundimg.jpg">
         </div>
         <div class="banner1">
-            <h1>주제</h1>
-            <p>우리말과 문화 활성화를 위한 기획안 / 창업아이템</p>
+            <table width ="500"align="center">
+                    <thead>
+                            <tr>
+                              <th> <h1><u>주제</u></h1></th>
+                              <img src="/images/topic.png" width="50" height="50">
+                              <th>우리말과 문화 활성화를 위한 기획안 / 창업아이템</th>
+                            </tr>
+                          </thead>
+                        </table>
+
         </div>
         <div class="banner2">
                 <h1>시상<br>부문</h1>
