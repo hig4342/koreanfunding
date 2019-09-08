@@ -13,9 +13,9 @@
 Route::get('/', function () {
     return view('main');
 });
-Route::get('/footer', function () {
-    return view('footer');
+Route::get('/notice', function () {
+    return view('notice');
 });
-Route::get('/contents', function () {
-    return view('contents');
+Route::get('/qna', function () {
+    return view('qna');
 });
