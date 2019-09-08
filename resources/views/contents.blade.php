@@ -38,7 +38,6 @@
                     <thead>
                         <tr>
                             <th> <h1><u>주제</u></h1></th>
-                            {{-- <img src="/images/topic.png" width="50" height="50"> --}}
                             <th>우리말과 문화 활성화를 위한 기획안 / 창업아이템</th>
                         </tr>
                     </thead>
@@ -46,11 +45,11 @@
         </div>
 
         <div class="banner1">
-                <table width ="500"align="center">
+                <table width ="700"align="center">
                         <thead>
                             <tr>
                                 <th> <h1><u>시상부문</u></h1></th>
-                                {{-- <img src="/images/topic.png" width="50" height="50"> --}}
+                                <img src="/images/topic.png" width="50" height="50">
                                 <th>최우수상(1 기획안) - 전국국어문화원 연합회장상 및 상금 70만원</th>
                                 <th>우수상(1 기획안) – 한남대학교 총장상 및 상금 50만원</th>
                                 <th>장려상(1 기획안) – 한남대학교 국어문화원장상 및 상금 30만원</th>
