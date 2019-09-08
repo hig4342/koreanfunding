@@ -1,5 +1,5 @@
 <div id="topmenu">
-    <div class="logo"><img src="/images/logo.png" height="60px" width="auto"></div>
+    <div class="logo"><a href="{{ url('/') }}"><img src="/images/logo.png" height="60px" width="auto"></a></div>
     <ul>
         <li class="menu">
             <div class="dropbtn">대회소개</div>
