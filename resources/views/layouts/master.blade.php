@@ -15,7 +15,7 @@
                 width: 100%;
                 margin: 0;
                 background: url('/images/background.jpg');
-                color: #f6e7d9;
+
             }
             img {
                 max-width: 100%;
@@ -59,6 +59,7 @@
             }
             .main_title{
                 display: block; margin: 0px auto;
+                color: #f6e7d9;
             }
         </style>
     </head>

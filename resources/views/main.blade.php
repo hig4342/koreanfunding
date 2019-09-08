@@ -21,75 +21,88 @@
 
                 <tr>
                     <th>총 150만원 상당의 상금</th>
-                    <th>HSV 창업 경진대회 본선 진출 티켓(총 상금 1,200만원) </th>
+                    <th>HSV 창업 경진대회 본선 진출 티켓<br>(총 상금 1,200만원) </th>
                 </tr>
             </thead>
     </table>
 
 <br><br>
-<hr width="500">
+<hr width="700">
 <br>
 <table width ="600"align="center">
         <thead>
             <tr>
                 <td > <h1><u>응모자격</u></h1></td>
-                <td>우리말과 문화를 사랑하는 누구나</td>
+                <td style="padding-left: 120px;">우리말과 문화를 사랑하는 누구나</td>
             </tr>
             <tr>
                     <td rowspan="4"> <h1><u>응모일정</u></h1></td>
-                    <td>응모 기간 : 2019. 9. 9.(월)~2019. 10. 25.(금)</td>
+                    <td style="padding-left: 120px;">응모 기간 : 2019. 9. 9.(월)~2019. 10. 25.(금)</td>
 
                 </tr>
             <tr>
 
-                    <td>서류 평가 : 2019. 10. 26.(토)~2019. 11. 3.(일)</td>
+                    <td style="padding-left: 120px;">서류 평가 : 2019. 10. 26.(토)~2019. 11. 3.(일)</td>
             </tr>
             <tr>
 
-                    <td>발표 평가 : 2019. 11. 8.(금)</td>
+                    <td style="padding-left: 120px;">발표 평가 : 2019. 11. 8.(금)</td>
             </tr>
             <tr>
 
-                    <td>대중 투표 : 2019. 11. 8.(금)~2019. 11. 15.(금)</td>
+                    <td style="padding-left: 120px;">대중 투표 : 2019. 11. 8.(금)~2019. 11. 15.(금)</td>
             </tr>
         </thead>
 </table>
 <br><br>
-<hr width="500">
+<hr width="700">
 <br>
 
-<a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo4.png" ></a>
-<a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo5.png" ></a>
-<br><br><br><br><br>
+<a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo4.png" width="250" height="50"></a>
+<a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo5.png" width="260" height="45" style="padding-left: 50px;"></a>
+<br><br><br><br><br><br><br>
 </div>
 <div class="banner1">
-    <table width ="500"align="center">
+    <table width ="700"align="center" style="margin-top: 50px;">
             <thead>
                 <tr>
-                    <th> <h1><u>주제</u></h1></th>
-                    <th>우리말과 문화 활성화를 위한 기획안 / 창업아이템</th>
+                    <th > <h1><u>주제</u></h1></th>
+                    <th style="padding-left: 100px; padding-right: 100px;">우리말과 문화 활성화를 위한 기획안 / 창업아이템</th>
                 </tr>
             </thead>
     </table>
 </div>
-<hr width="500">
-<br>
+<hr width="700" style="border: solid 1px ;">
 <div class="banner1">
-        <table width ="700"align="center">
+        <table width ="900 "align="center" text-align= "center";>
                 <thead>
                     <tr>
-                        <th style="width: 70px;"> <h1><u>시상내역</u></h1></th>
-                        <th><img src="/images/trophy1.png" width="100" height="100">최우수상(1 기획안) - 전국국어문화원 연합회장상 및 상금 70만원</th>
-                        <th><img src="/images/trophy2.png" width="100" height="100">우수상(1 기획안) – 한남대학교 총장상 및 상금 50만원</th>
-                        <th><img src="/images/trophy3.png" width="100" height="100">장려상(1 기획안) – 한남대학교 국어문화원장상 및 상금 30만원</th>
-                        <th><img src="/images/trophy4.png" width="100" height="100">특별상(1 기획안) – HSV 창업 경진대회 본선 진출 티켓 </th>
+                        <td rowspan="3"> <h1><u>시상<br>내역</u></h1></td>
+                        <td style="width: 190px;height: 150px;" align="center"><img src="/images/trophy1.png" width="150" height="150"></td>
+                        <td style="width: 190px;height: 150px;" align="center"><img src="/images/trophy2.png" width="150" height="150"></td>
+                        <td style="width: 190px;height: 150px;" align="center"><img src="/images/trophy3.png" width="150" height="150"></td>
+                        <td style="width: 190px;height: 150px;" align="center"><img src="/images/trophy4.png" width="150" height="150"></td>
                     </tr>
+                    <tr>
+                            <td style="text-align:center">최우수상</td>
+                            <td style="text-align:center">우수상</td>
+                            <td style="text-align:center">장려상</td>
+                            <td style="text-align:center">특별상</td>
+                    </tr>
+                    <tr>
+                            <td><p>전국국어문화원 연합회장상 및 상금 70만원</p></td>
+                            <td><p>한남대학교 총장상 및 상금 50만원</p></td>
+                            <td><p>한남대학교 국어문화원장상 및 상금 30만원</p></td>
+                            <td><p>HSV 창업 경진대회 본선 진출 티켓 </p></td>
+                    </tr>
+
+
                 </thead>
         </table>
     </div>
     <br>
 <br>
-<hr width="500">
+<hr width="700" style="border: solid 1px ;">
 <br>
 
 <div class="banner1">
