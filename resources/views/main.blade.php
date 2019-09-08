@@ -10,16 +10,16 @@
     <h6>주관<br>한남대학교 국어문화원, 크루이슬러 주식회사</h6>
     <img src="/images/main_logo.png" width="500" height="500">
         <br>
-    <table width ="700"align="center">
+    <table width ="600"align="center">
             <thead>
-                    <tr>
+                    <tr align="center">
                             <th>    <img src="/images/main_logo2.png" width="250" height="250">
                             </th>
                             <th>    <img src="/images/main_logo3.png" width="250" height="250">
                             </th>
                         </tr>
 
-                <tr>
+                <tr align="center">
                     <th>총 150만원 상당의 상금</th>
                     <th>HSV 창업 경진대회 본선 진출 티켓<br>(총 상금 1,200만원) </th>
                 </tr>
@@ -59,7 +59,7 @@
 <br>
 
 <a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo4.png" width="250" height="50"></a>
-<a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo5.png" width="260" height="45" style="padding-left: 50px;"></a>
+<a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo5.png" width="350" height="45" style="padding-left: 50px;"></a>
 <br><br><br><br><br><br><br>
 </div>
 <div class="banner1">
@@ -109,7 +109,7 @@
         <table width ="700"align="center">
                 <thead>
                     <tr>
-                            <td rowspan="4" style="width: 130px;"> <h1><u>대회일정</u></h1></td>
+                            <td rowspan="4" style="width: 130px;"> <h1><u>대회<br>일정</u></h1></td>
                     </tr>
                     <tr>
                             <td style="width: 150px;">
