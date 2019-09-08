@@ -15,16 +15,18 @@
                 width: 100%;
                 margin: 0;
                 background: url('/images/background.jpg');
+                color: #f6e7d9;
             }
             img {
                 max-width: 100%;
             }
             .contents{
                 background: url('/images/banner.png') no-repeat top center;
+                margin: 0px;
                 margin-top: 80px;
                 width: 100%;
                 height: 1684px;
-                margin: 0px;
+
             }
             #topmenu ul{
                 font-size: 25px;
@@ -52,6 +54,9 @@
                 z-index: 1;
             }
             .banner1{
+                display: block; margin: 0px auto;
+            }
+            .main_title{
                 display: block; margin: 0px auto;
             }
         </style>
