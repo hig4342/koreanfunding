@@ -21,10 +21,13 @@
             }
             .contents{
                 background: url('/images/banner.png') no-repeat top center;
+                margin: 0px auto;
                 margin-top: 80px;
                 width: 100%;
                 height: 1684px;
-                margin: 0px;
+            }
+            #quickmenu{
+                z-index: 0;
             }
             #topmenu ul{
                 font-size: 25px;

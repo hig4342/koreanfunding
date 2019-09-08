@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="notice">
+<div class="greet">
 </div>
 @endsection
