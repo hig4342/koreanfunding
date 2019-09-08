@@ -16,6 +16,7 @@ Route::view('/greet', 'greet');
 Route::view('/faq', 'faq');
 Route::view('/guideline', 'guideline');
 Route::view('/login_intro', 'login_intro');
+Route::view('/receipt', 'receipt');
 
 Auth::routes();
 
