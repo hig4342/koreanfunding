@@ -25,7 +25,6 @@
                 margin: 0px auto;
                 margin-top: 80px;
                 width: 100%;
-                height: 1684px;
             }
             #quickmenu{
                 z-index: 0;
