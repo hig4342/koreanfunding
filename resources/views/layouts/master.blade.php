@@ -34,9 +34,9 @@
             #quickmenu{
                 z-index: 0;
             }
-            #topmenu ul{
+            .menu-list{
                 font-size: 25px;
-                padding: 20px;
+                margin: 20px 24px 20px 20px;
                 float:right;
             }
             .dropbtn{
@@ -47,7 +47,6 @@
             .menu {
                 text-align: center;
                 display: inline-block;
-                cursor: pointer;
             }
             .menu:first-child .dropbtn{
                 border-left: none;
@@ -56,21 +55,19 @@
             .menu:focus-within .submenu,
             .menu:hover .submenu {
                 visibility: visible;
-                display: block;
                 opacity: 1;
                 z-index: 1;
                 transform: translateY(0%);
                 transition-delay: 0s, 0s, 0.3s;
             }
             .submenu {
+                padding: 20px;
                 visibility: hidden;
-                display: block;
-                position: relative;
+                position: absolute;
                 background-image: url('/images/manu_background.jpg');
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,3);
                 opacity: 0;
-                top: 20px;
-                left: 2px;
+                top: 80px;
                 transform: translateY(-2em);
                 z-index: -1;
                 transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;

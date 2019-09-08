@@ -8,5 +8,6 @@
     "Name": "이름",
     "Confirm Password": "비밀번호 재확인",
     "Reset Password": "비밀번호 초기화",
-    "Send Password Reset Link": "비밀번호 초기화 이메일 보내기"
+    "Send Password Reset Link": "비밀번호 초기화 이메일 보내기",
+    "Logout": "로그아웃"
 }
