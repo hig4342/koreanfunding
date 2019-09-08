@@ -113,7 +113,7 @@ return [
     'unique'               => ':attribute은(는) 이미 사용 중입니다.',
     'uploaded'             => ':attribute을(를) 업로드하지 못했습니다.',
     'url'                  => ':attribute 형식은 유효하지 않습니다.',
-    'uuid'                 => 'The :attribute must be a valid UUID.',
+    'uuid'                 => ':attribute은(는) 이미 존재하는 UUID 입니다.',
 
     /*
     |--------------------------------------------------------------------------
@@ -144,5 +144,7 @@ return [
     */
 
     'attributes' => [
+        'email' => '이메일',
+        'password' => '비밀번호',
     ],
 ];
