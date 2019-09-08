@@ -14,3 +14,7 @@ Route::view('/', 'main');
 Route::view('/notice', 'notice');
 Route::view('/greet', 'greet');
 Route::view('/faq', 'faq');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
