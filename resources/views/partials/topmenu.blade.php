@@ -8,24 +8,45 @@
                 <li>인사말</li>
             </ul>
         </li>
-        <li class="menu">접수하기</li>
-        <li class="menu">공지사항</li>
-        <li class="menu">모의투자</li>
+        <li class="menu">
+            <div class="dropbtn">접수하기</div>
+            <ul class="submenu">
+                <li>공모요강</li>
+                <li>인사말</li>
+            </ul>
+        </li>
+        <li class="menu">
+            <div class="dropbtn">공지사항</div>
+            <ul class="submenu">
+                <li>공모요강</li>
+                <li>인사말</li>
+            </ul>
+        </li>
+        <li class="menu">
+            <div class="dropbtn">모의투자</div>
+        </li>
         @auth
         <li class="menu">
-            <a class="dropdown-item" href="{{ route('logout') }}"
-                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                {{ __('로그아웃') }}
-            </a>
+            <div class="dropbtn">
+                <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                </a>
+            </div>
+            <ul class="submenu">
+                <li><a href="{{ route('logout') }}"
+                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                    {{ __('로그아웃') }}
+                </a></li>
+            </ul>
 
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                 @csrf
             </form>
         </li>
         @else
-            <li class="menu"><a href="{{ route('login') }}">로그인</a></li>
+            <li class="menu"><div class="dropbtn"><a href="{{ route('login') }}">로그인</a></div></li>
             @if (Route::has('register'))
-            <li class="menu"><a href="{{ route('register') }}">회원가입</a></li>
+            <li class="menu"><div class="dropbtn"><a href="{{ route('register') }}">회원가입</a></div></li>
             @endif
         @endauth
     </ul>

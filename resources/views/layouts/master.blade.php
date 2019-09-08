@@ -36,28 +36,44 @@
             }
             #topmenu ul{
                 font-size: 25px;
-                padding: 25px;
+                padding: 20px;
                 float:right;
+            }
+            .dropbtn{
+                padding: 0px 18px 0px 18px;
+                border-left: solid 1px black;
+                border-right-width: 1px;
             }
             .menu {
                 text-align: center;
                 display: inline-block;
+                cursor: pointer;
             }
-            .menu:first-child{
+            .menu:first-child .dropbtn{
                 border-left: none;
             }
+            .menu:focus .submenu,
+            .menu:focus-within .submenu,
             .menu:hover .submenu {
+                visibility: visible;
                 display: block;
                 opacity: 1;
-                transform: translateY(0);
+                z-index: 1;
+                transform: translateY(0%);
+                transition-delay: 0s, 0s, 0.3s;
             }
             .submenu {
-                display: none;
-                position: absolute;
-                background-color: white;
-                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                transition: all .5s ease;
-                z-index: 1;
+                visibility: hidden;
+                display: block;
+                position: relative;
+                background-image: url('/images/manu_background.jpg');
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,3);
+                opacity: 0;
+                top: 20px;
+                left: 2px;
+                transform: translateY(-2em);
+                z-index: -1;
+                transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
             }
             .banner1{
                 display: block; margin: 0px auto;
