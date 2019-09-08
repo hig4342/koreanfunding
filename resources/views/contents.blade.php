@@ -49,11 +49,10 @@
                         <thead>
                             <tr>
                                 <th> <h1><u>시상부문</u></h1></th>
-                                <img src="/images/topic.png" width="50" height="50">
-                                <th>최우수상(1 기획안) - 전국국어문화원 연합회장상 및 상금 70만원</th>
-                                <th>우수상(1 기획안) – 한남대학교 총장상 및 상금 50만원</th>
-                                <th>장려상(1 기획안) – 한남대학교 국어문화원장상 및 상금 30만원</th>
-                                <th>특별상(1 기획안) – HSV 창업 경진대회 본선 진출 티켓 <br>
+                                <th><img src="/images/trophy1.png" width="50" height="50">최우수상(1 기획안) - 전국국어문화원 연합회장상 및 상금 70만원</th>
+                                <th><img src="/images/trophy1.png" width="50" height="50">우수상(1 기획안) – 한남대학교 총장상 및 상금 50만원</th>
+                                <th><img src="/images/trophy1.png" width="50" height="50">장려상(1 기획안) – 한남대학교 국어문화원장상 및 상금 30만원</th>
+                                <th><img src="/images/trophy1.png" width="50" height="50">특별상(1 기획안) – HSV 창업 경진대회 본선 진출 티켓 <br>
                                     * HSV 창업 경진대회 (총 상금 1,200만원)</th>
                             </tr>
                         </thead>
