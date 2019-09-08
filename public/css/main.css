@@ -1,9 +1,11 @@
 ul,
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-#menu {
+#topmenu {
   font-family: "EBSJSK Bold";
   top: 0;
   position: fixed;
@@ -11,29 +13,13 @@ li {
   color: black;
   width: 100%;
   height: 80px;
-  line-height: 80px;
-  z-index: 10;
   box-shadow: 5px 5px 10px black;
 }
 
-#menu li {
-  float: left;
-}
-
-#menu .logo {
+#topmenu .logo {
   float: left;
   padding-left: 30px;
   padding-top: 10px;
-}
-
-#menu .menu-button {
-  float: right;
-  margin-right: 30px;
-}
-
-#menu .menu-button li {
-  font-size: 20px;
-  padding-right: 5px;
 }
 
 #quickmenu {
@@ -42,7 +28,7 @@ li {
   right: 20px;
   top: 200px;
   width: 88px;
-  z-index: 9;
+  z-index: -1;
 }
 
 #quickmenu .squarebutton {
@@ -70,7 +56,7 @@ li {
   position: relative;
 }
 
-#quickmenu .join {
+#quickmenu .on {
   -webkit-filter: brightness(70%);
           filter: brightness(70%);
 }
