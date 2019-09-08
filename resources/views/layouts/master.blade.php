@@ -10,6 +10,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="./js/main.js"></script>
         <link href="./css/main.css" rel="stylesheet">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="./fonts/stylesheet.css" rel="stylesheet" type="text/css">
         <style>
             body{
@@ -21,10 +22,12 @@
             img {
                 max-width: 100%;
             }
-            .contents{
+            .main_title{
                 background: url('/images/banner.png') no-repeat top center;
+            }
+            .contents{
                 margin: 0px auto;
-                margin-top: 80px;
+                margin-top: 100px;
                 width: 100%;
                 text-align: center;
             }
